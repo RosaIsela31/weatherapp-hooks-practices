@@ -1,10 +1,13 @@
 import React from 'react';
+import { BrowserRouter, Route } from "react-router-dom";
+import AppContainer from './component/AppContainer'
 
 
 function App() {
   return (
-    <div className="App">hi
-    </div>
+    <BrowserRouter>
+      <Route path='/' component={AppContainer} />
+    </BrowserRouter>
   );
 }
 
