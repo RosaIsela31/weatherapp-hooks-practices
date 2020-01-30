@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/weatherapp-hooks-practices/static/css/main.3e82f7ce.chunk.css",
-    "main.js": "/weatherapp-hooks-practices/static/js/main.62a1b0bf.chunk.js",
-    "main.js.map": "/weatherapp-hooks-practices/static/js/main.62a1b0bf.chunk.js.map",
+    "main.js": "/weatherapp-hooks-practices/static/js/main.d00bf8b5.chunk.js",
+    "main.js.map": "/weatherapp-hooks-practices/static/js/main.d00bf8b5.chunk.js.map",
     "runtime-main.js": "/weatherapp-hooks-practices/static/js/runtime-main.88566dbc.js",
     "runtime-main.js.map": "/weatherapp-hooks-practices/static/js/runtime-main.88566dbc.js.map",
-    "static/js/2.1d85128a.chunk.js": "/weatherapp-hooks-practices/static/js/2.1d85128a.chunk.js",
-    "static/js/2.1d85128a.chunk.js.map": "/weatherapp-hooks-practices/static/js/2.1d85128a.chunk.js.map",
+    "static/js/2.d94f3b40.chunk.js": "/weatherapp-hooks-practices/static/js/2.d94f3b40.chunk.js",
+    "static/js/2.d94f3b40.chunk.js.map": "/weatherapp-hooks-practices/static/js/2.d94f3b40.chunk.js.map",
     "index.html": "/weatherapp-hooks-practices/index.html",
-    "precache-manifest.6a2666fd6a0703a06eb656ef2bdaac44.js": "/weatherapp-hooks-practices/precache-manifest.6a2666fd6a0703a06eb656ef2bdaac44.js",
+    "precache-manifest.b089c80cdcb5a14f563caca2faa70567.js": "/weatherapp-hooks-practices/precache-manifest.b089c80cdcb5a14f563caca2faa70567.js",
     "service-worker.js": "/weatherapp-hooks-practices/service-worker.js",
     "static/css/main.3e82f7ce.chunk.css.map": "/weatherapp-hooks-practices/static/css/main.3e82f7ce.chunk.css.map",
-    "static/js/2.1d85128a.chunk.js.LICENSE": "/weatherapp-hooks-practices/static/js/2.1d85128a.chunk.js.LICENSE"
+    "static/js/2.d94f3b40.chunk.js.LICENSE": "/weatherapp-hooks-practices/static/js/2.d94f3b40.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.88566dbc.js",
-    "static/js/2.1d85128a.chunk.js",
+    "static/js/2.d94f3b40.chunk.js",
     "static/css/main.3e82f7ce.chunk.css",
-    "static/js/main.62a1b0bf.chunk.js"
+    "static/js/main.d00bf8b5.chunk.js"
   ]
 }
