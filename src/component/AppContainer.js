@@ -24,7 +24,7 @@ const AppContainer = () => {
       if(consultar){
 
         const appId = 'd937ac867e384963e46a254c235b1ce7';
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
   
         const respuesta = await fetch(url);
         const resultado = await respuesta.json();
