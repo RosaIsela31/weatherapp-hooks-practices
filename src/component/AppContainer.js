@@ -1,7 +1,15 @@
-import React from 'react'
+import React, {Fragment} from 'react';
+import Header from './Header';
+import '../index.css';
 
 const AppContainer = () => {
-  return ( <div>holi</div> );
+  return ( 
+    <Fragment>
+      <Header 
+        title='This is the header'
+      />
+    </Fragment> 
+    );
 }
  
 export default AppContainer;
