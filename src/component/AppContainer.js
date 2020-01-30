@@ -8,6 +8,9 @@ const AppContainer = () => {
       <Header 
         title='This is the header'
       />
+      <div className='contenedor-form'>
+
+      </div>
     </Fragment> 
     );
 }
