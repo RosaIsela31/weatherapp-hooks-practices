@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import Header from './Header';
+import Formulario from './Formulario';
 import '../index.css';
 
 const AppContainer = () => {
@@ -12,7 +13,7 @@ const AppContainer = () => {
         <div className='container'>
           <div className='row'>
             <div className='col m6 s12'>
-              1
+              <Formulario />
             </div>
             <div className='col m6 s12'>
               2
