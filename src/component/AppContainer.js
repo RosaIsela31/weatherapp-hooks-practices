@@ -2,6 +2,7 @@ import React, {Fragment, useState, useEffect} from 'react';
 import Header from './Header';
 import Formulario from './Formulario';
 import Clima from './Clima';
+import Error from './Error';
 import '../index.css';
 
 const AppContainer = () => {
@@ -13,9 +14,8 @@ const AppContainer = () => {
   });
 
   const [consultar, guardarConsultar] = useState(false);
-  const [resultado, guardarResultado] = useState({
-
-  })
+  const [resultado, guardarResultado] = useState({});
+  const [error, guardarError] = useState(false);
 
   const { ciudad, pais } = busqueda;
 
@@ -31,13 +31,29 @@ const AppContainer = () => {
   
         guardarResultado(resultado);
         guardarConsultar(false)
-      }
-      
 
-     
+        // Detecta si hubo resultados correctos en la consulta
+        if( resultado.cod === '404'){
+          guardarError(true)
+        }else{
+          guardarError(false)
+        }
+      }
     }
     consultarAPI();
+    // eslint-disable-next-line
   }, [consultar]);
+
+  let componente;
+  if(error){
+    componente = <Error mensaje='No hay resultados' className='red darken-4 error' />
+  }else{
+    componente= <Clima 
+                  resultado={resultado}
+                />
+  }
+
+ 
 
   return ( 
     <Fragment>
@@ -55,9 +71,7 @@ const AppContainer = () => {
               />
             </div>
             <div className='col m6 s12'>
-              <Clima 
-                resultado={resultado}
-              />
+             {componente}
             </div>      
           </div>
         </div>
